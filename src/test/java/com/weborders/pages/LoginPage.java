@@ -15,7 +15,6 @@ public class LoginPage extends AbstractBasePage {
         private WebElement password;
 
 
-
     public void login(){
         String usernameValue= ConfigurationReader.getProperty("username");
         String passwordValue=ConfigurationReader.getProperty("password");
